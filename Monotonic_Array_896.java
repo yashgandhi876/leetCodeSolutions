@@ -5,7 +5,6 @@ class Solution {
         }
         
         int temp = 0;
-        
         for(int i = 0; i<nums.length-1; i++){
             if(temp == 0){
                 if(nums[i] < nums[i+1]){

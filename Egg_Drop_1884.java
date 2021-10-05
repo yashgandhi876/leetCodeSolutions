@@ -3,8 +3,7 @@ class Solution {
         int minimumNumberOfMoves = 0;
         
         while(n > 0){
-            n -= minimumNumberOfMoves;
-            minimumNumberOfMoves++;
+            n -= minimumNumberOfMoves++;
         }
         return minimumNumberOfMoves - 1;
     }
